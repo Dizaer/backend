@@ -18,3 +18,8 @@
 - ``php artisan route:cache``<br>
     para que las listas nuevas que fueron agregadas aparezcan
 
+### Controladores
+
+- ``php artisan make:controller TodoController``<br>
+    Crea un controlador con el nombre que hayas proporcionado
+
