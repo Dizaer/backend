@@ -11,11 +11,10 @@
 
 ### Comandos
 
-- ``php artisan route:list``
+- ``php artisan route:list``<br>
+    regresa una lista con todas las listas actuales
 
-regresa una lista con todas las listas actuales
 
-- ``php artisan route:cache``
-
-para que las listas nuevas que fueron agregadas aparezcan
+- ``php artisan route:cache``<br>
+    para que las listas nuevas que fueron agregadas aparezcan
 
