@@ -2,15 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\TodoRequest;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Validator;
-use App\Models\Todo;
 
-class TodoController extends Controller
+class RoleController extends Controller
 {
-    //GET all resource
     public function index()
     {
         return Todo::query()->select(DB::raw("CONCAT_WS(', ', id, name, description) AS Registro"), 'status')->get();
