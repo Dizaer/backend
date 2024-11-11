@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name',100);
             $table->string('slug',100);
-            $table->json('permissions');
+            $table->text('permissions');
             $table->timestamps();
             $table->softDeletes();
         });
